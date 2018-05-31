@@ -1,18 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 31 10:42:03 2018
-
-@author: ranka
-"""
 choices = []
-
 for x in range (0, 9) :
     choices.append(str(x + 1))
-
 playerOneTurn = True
 winner = False
-
 def printBoard() :
     print( '\n -----')
     print( '|' + choices[0] + '|' + choices[1] + '|' + choices[2] + '|')
